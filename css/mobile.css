@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+.content_container > .content_inner {
+	width:400px;
+}
+
+.navbar-toggle {
+	padding:4px 0px;
+	background-color:#B40823;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
+	cursor:pointer;
+	float:right;
+	margin:5px 10px;
+}
+
+.navbar-toggle:hover {
+	border-color:#B40823;
+	background-color:#800000;
+}
+
+.navbar-toggle span.icon-bar {
+	display:block;
+	width:22px;
+	height:2px;
+	background-color:white;
+	margin:4px 6px;
+}
+
+.infos {
+	padding:10px 15px;
+	margin:10px 25px 30px;
+}
+
+.content_container > .content_inner nav.navbar ul.nav {
+	padding:1px;
+	margin:0px;
+	list-style:outside none none;
+	float:none;
+	clear:both;
+	overflow:hidden;
+	max-height:0px;
+	transition:max-height 0.25s;
+}
+
+.content_container > .content_inner nav.navbar.open ul.nav {
+	max-height:205px;
+}
+
+.content_container > .content_inner nav.navbar ul.nav > li {
+	display:block;
+	float:none;
+	margin-right:0px;
+	margin-top:5px;
+}
+
+.content_container > .content_inner nav.navbar ul.nav > li > a {
+	display:block;
+}
+
+.infos {
+	text-align:center;
+}
+
+.infos .promo > .text > .long {
+	display:none;
+}
+
+.content_container > .content_inner ul.nav > li {
+	margin-right:0px;
+	text-align:center;
+}
+
+.main.content_container > .content_inner .inner_cont {
+	padding:20px 0px 0px;
+}
+
+.main.content_container > .content_inner .inner_cont > h2 {
+	padding:0px 10px;
+	font-size:28px;
+	text-align:center;
+}
+
+.main.content_container > .content_inner .inner_cont > p {
+	padding:0px 10px;
+}
+
+.grey_bg {
+	padding:0px;
+}
+
+.grey_bg h2 {
+	font-size:55px;
+	padding:0px 10px 0px;
+}
+
+.grey_bg h3 {
+	font-size:45px;
+	padding:0px 10px 0px;
+}
+
+.grey_bg h4 {
+	font-size:30px;
+	padding:0px 10px 0px;
+	margin-top:0px;
+}
+
+.grey_bg p {
+	padding:0px 10px 0px;
+	margin:10px 0px;
+}
+
+.imglistblk .col-md-3 {
+	margin-left:4%;
+}
+
+.imglistblk .col-md-3 {
+	width:44%;
+}
+
+.main.content_container > .content_inner .inner_cont > .stop_text {
+	margin:-70px auto 10px;
+}
+
+.ingredient {
+	padding:0px 20px;
+}
+
+#copyright #FDA {
+	font-size:10px;
+}
+
+.footer.content_container > .content_inner ul > li:nth-child(3)::after {
+	content:'';
+	display:block;
+	margin:0px;
+	margin-bottom:10px;
+}
+
+.packages {
+	width:auto;
+	padding:0px 10px;
+}
+
+body#order h1 {
+	text-align:center;
+}
+
+body#order h2 {
+	font-size:32px;
+}

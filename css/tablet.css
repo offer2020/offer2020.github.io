@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+.content_container > .content_inner {
+	width:700px;
+}
+
+.navbar-toggle {
+	display:none;
+}
+
+.navbar-brand img {
+	width:175px;
+}
+
+.content_container > .content_inner ul.nav > li a {
+	padding: 6px 10px;
+}
+
+.content_container > .content_inner ul.nav {
+	margin: 6px 0px 0px;
+}
+
+.infos {
+	margin:5px 25px 35px;
+}
+
+.infos .call {
+	float:left;
+}
+
+.infos .promo {
+	float:right;
+}
+
+.infos .promo > .text > .long {
+	display:none;
+}
+
+.ingredient {
+	padding:0px 20px;
+}
+
+.main.content_container > .content_inner .inner_cont {
+	padding:20px 0px 0px;
+}
+
+.main.content_container > .content_inner .inner_cont > h2 {
+	line-height: 1.1em;
+	padding:0px 10px;
+}
+
+.main.content_container > .content_inner .inner_cont > p {
+	padding:0px 10px;
+}
+
+.main.content_container > .content_inner .inner_cont > img.man_pill {
+	margin:20px 0px 30px;
+}
+
+.main.content_container > .content_inner .inner_cont .grey_bg > img {
+	width:50%;
+}
+
+.grey_bg h2 {
+	font-size:55px;
+}
+
+.grey_bg h3 {
+	font-size:45px;
+}
+
+.grey_bg h4 {
+	font-size:30px;
+	margin-top:0px;
+}
+
+.grey_bg p {
+	margin-right:15px;
+	font-size:17px;
+}

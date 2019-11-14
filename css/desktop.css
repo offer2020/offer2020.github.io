@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.content_container > .content_inner {
+	width:900px;
+}
+
+.navbar-toggle {
+	display:none;
+}
+
+.infos .call {
+	float:left;
+}
+
+.infos .promo {
+	float:right;
+}
+
+.orderBlock {
+	width:630px;
+	margin:0px auto;
+}
